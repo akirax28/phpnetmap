@@ -5,6 +5,6 @@ server:
    - ADMIN_USER=admin
    - ADMIN_PASSWORD=pnm
   ports:
-   - "80:80"
+   - "8081:80"
   volumes: 
-   - .:/app
+   - /data/phpnetmap:/app
